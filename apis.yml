@@ -28,10 +28,14 @@ apis:
     description: >-
       The Evercore Inc API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: DomainSecurity
+    url: security/evercore-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/evercore-inc
   - type: Website
     url: https://www.evercore.com
+  - url: https://www.evercore.com/media/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
