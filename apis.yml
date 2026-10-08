@@ -51,6 +51,12 @@ apis:
     description: >-
       The Evercore Inc API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/evercore-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/evercore-rate-limits.yml
+  - type: FinOps
+    url: finops/evercore-finops.yml
   - type: DomainSecurity
     url: security/evercore-domain-security.yml
   - type: LinkedIn
